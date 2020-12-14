@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "de-walpergens-pica";
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/*清除浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
