@@ -470,7 +470,7 @@
 	//privious换图
 	privious.onclick = function(){
 		clearInterval(bannerTimer);
-		j = (j-1)%bannerScr.length;
+		j = (j-1+bannerScr.length)%bannerScr.length;
 		bannerImg.src = bannerScr[j];
 		bannerImg.parentNode.href = bannerHref[j];
 		span[j].style.backgroundColor = "#f3f39f";
